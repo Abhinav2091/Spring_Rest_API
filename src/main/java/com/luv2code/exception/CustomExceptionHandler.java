@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice //for global exception
-public class CustomeExceptionHandler {
+public class CustomExceptionHandler {
 
 	// added Exception handler for Any Exception
 		@ExceptionHandler
